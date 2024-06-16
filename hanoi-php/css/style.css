@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+
+.container > div {
+    width: 50%;
+}
+
+.game-over {
+    position:absolute;
+    top:30%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.tower-set {
+    display: flex;
+    flex-direction: row;
+}
+
+.tower-set > div {
+    width: 33%;
+}
+
+.tower-form {
+    text-align: center;
+}
+
+.tower {
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.disc {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.disc div {
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px;
+}
+
+.disc-7 {
+    align-self: center;
+    width: 70%;
+    height: 25px;
+    background-color: #ec111a;
+}
+
+.disc-6 {
+    align-self: center;
+    width: 60%;
+    height: 25px;
+    background-color: #fb6330;
+}
+
+.disc-5 {
+    align-self: center;
+    width: 50%;
+    height: 25px;
+    background-color: #ffd42f;
+}
+
+.disc-4 {
+    align-self: center;
+    width: 40%;
+    height: 25px;
+    background-color: #138468;
+}
+
+.disc-3 {
+    align-self: center;
+    width: 30%;
+    height: 25px;
+    background-color: #009dd6;
+}
+
+.disc-2 {
+    align-self: center;
+    width: 20%;
+    height: 25px;
+    background-color: #7849b8;
+}
+
+.disc-1 {
+    align-self: center;
+    width: 10%;
+    height: 25px;
+    background-color: #f2609e;
+}
